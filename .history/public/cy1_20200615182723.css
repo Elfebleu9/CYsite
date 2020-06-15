@@ -1,55 +1,37 @@
 body
 {
-    margin: 0;
-    padding: 0;
     font-family: 'EB Garamond', Verdana, Georgia,'Comic Sans MS', serif;
     background: linear-gradient(90deg,rgb(66, 25, 63),rgb(214, 154, 209),rgb(184, 222, 247),rgb(214, 154, 209),rgb(66, 25, 63));
 }
 #blp_titre
 {
     display: flex;
-    justify-content: flex-start;  
-    
+    justify-content: space-around;  
+    border: 2px solid green;
 }
 #bl_titre
 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 70%;
     height: 250px;
-    /* border: turquoise 1px solid; */
-    
+    border: 2px solid red;
 }
 #p_titre
 {
     font-size: 20px;
-    font-weight: 600;
-    margin-top: -10px;
 }
 #bl_log
 {
     display: flex;
-    justify-content: center;
     align-items: center;
-    width: 20%;
-   
-}
-    
-#vid
-{
     width: 30%;
-    height: 100px;
-}    
-#vid1
-{
-    width: 20%;
-    height: 100px;
-} 
+
+}
 #logo
 {
-    border-radius: 5px;
     border: turquoise 2px solid;
 }
 h1
@@ -60,7 +42,6 @@ h1
 #wgt
 {
     font-size: larger;
-    
 }
 header
 {

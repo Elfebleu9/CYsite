@@ -17,15 +17,14 @@ body
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    width: 30%;
+    width: 50%;
     height: 250px;
-    /* border: turquoise 1px solid; */
     
 }
 #p_titre
 {
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 800;
     margin-top: -10px;
 }
 #bl_log
@@ -39,7 +38,7 @@ body
     
 #vid
 {
-    width: 30%;
+    width: 20%;
     height: 100px;
 }    
 #vid1
@@ -49,7 +48,6 @@ body
 } 
 #logo
 {
-    border-radius: 5px;
     border: turquoise 2px solid;
 }
 h1
@@ -60,7 +58,6 @@ h1
 #wgt
 {
     font-size: larger;
-    
 }
 header
 {
