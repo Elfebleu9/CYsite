@@ -1,0 +1,9 @@
+body
+{
+    font-family: 'EB Garamond', serif;
+    background: linear-gradient(90deg,rgb(214, 154, 209),rgb(184, 222, 247),rgb(214, 154, 209));
+}
+#wgt
+{
+    font-weight: bolder;
+}

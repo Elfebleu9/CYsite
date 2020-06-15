@@ -1,0 +1,58 @@
+body
+{
+    font-family: 'EB Garamond', Verdana, Georgia,'Comic Sans MS', serif;
+    background: linear-gradient(90deg,rgb(66, 25, 63),rgb(214, 154, 209),rgb(184, 222, 247),rgb(214, 154, 209),rgb(66, 25, 63));
+}
+#bl_titre
+{
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
+}
+h1
+{
+    text-align: center;
+}
+#wgt
+{
+    font-size: larger;
+}
+header
+{
+    border: solid 2px orange;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#vid
+{
+    width: 20%;
+    height: 100px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    height: 100px;
+    /* border: solid 2px blue; */
+}
+#mn
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    border: solid 2px greenyellow;
+}
+#but
+{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    height: 100px;
+    border: solid 2px blue;
+}

@@ -12,7 +12,7 @@ class BilletsController extends AbstractController
      */
     public function index()
     {
-        return $this->render('billets/index.html.twig');
+        return $this->render('base.html.twig');
     }
 
     /**

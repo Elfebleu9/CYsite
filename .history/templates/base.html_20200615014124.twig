@@ -12,7 +12,7 @@
         {% endblock %}
     </head>
     <body>
-        
+        {% block body %}
             <div id='bl_titre'>
                 <img id="logo" src="*" alt="logo">
                 <h1><span id='wgt'>Cor'Yas Mag</span></br> le blog sans concession</h1>
@@ -46,9 +46,7 @@
                 </div>
                 
             </header>
-        {% block body %}
         {% endblock %}
-        <footer></footer>
         {% block javascripts %}{% endblock %}
     </body>
 </html>

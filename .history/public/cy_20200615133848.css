@@ -1,0 +1,141 @@
+body
+{
+    font-family: 'EB Garamond', Verdana, Georgia,'Comic Sans MS', serif;
+    background: linear-gradient(90deg,rgb(66, 25, 63),rgb(214, 154, 209),rgb(184, 222, 247),rgb(214, 154, 209),rgb(66, 25, 63));
+}
+#bl_titre
+{
+    display: flex;
+    justify-content: center;
+    /* border: 2px solid red; */
+}
+h1
+{
+    text-align: center;
+    margin-top: 50px;
+}
+#wgt
+{
+    font-size: larger;
+}
+header
+{
+    /* border: solid 2px orange; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#vid
+{
+    width: 20%;
+    height: 100px;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 100px;
+    border: solid 2px blue;
+    border-radius: 50px;
+    box-shadow: black 4px 4px 2px;
+}
+nav #mn a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#mn
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    /* border: solid 2px greenyellow; */
+}
+#icon
+{
+    display: flex;
+    flex-direction: row;
+}
+#leo,#cor
+{
+    border-radius: 50px;
+}
+#b0
+{
+    width: 50%;
+    height: 40px;
+    text-align: center;
+    border-radius: 80px;
+}
+#b1,#b2,#b3,#b4
+{
+    width: 18%;
+    height: 40px;
+    text-align: center;
+    border-radius: 80px;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover
+{ 
+    background-color:  #fef8e1;
+}
+#b2,#b3
+{
+    display: flex;
+    justify-content:space-around;
+}
+/* boutons*/
+#but
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 18%;
+    height: 100px;
+    /* border: solid 2px blue; */
+}
+
+#button1, #button2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50px;
+    /* margin-top: 50px; */
+    background-color: #fef8e1;
+    border-radius: 50px;
+    text-align: center;
+    transform: scale(1);
+    transition: transform 100ms;
+}
+#button1:hover
+{
+    color:rgb(250, 40, 3);
+    background-color: rgb(59, 252, 53);
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight:bold;
+}
+#button2:hover
+{
+    color:rgb(250, 40, 3);
+    background-color: rgb(21, 230, 245);
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight:bold;
+}
+#but a
+{
+    text-decoration: none;
+    color: black;
+}
+#but a:hover
+{
+    color:rgb(241, 106, 16);
+}
