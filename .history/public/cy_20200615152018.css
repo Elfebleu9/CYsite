@@ -207,9 +207,7 @@ footer
     flex-direction: row;
     width: 100%;
     height: 220px;
-    border-top: yellowgreen 3px solid ;
-    border-left:yellowgreen 3px solid ;
-    box-shadow: black 4px 4px 2px;
+    /* background-image: linear-gradient(270deg,rgb(130, 6, 179),rgb(171, 131, 224), rgb(235, 116, 235),rgb(218, 101, 33),#ebb85a,#e2cf65,#fef8c1,#fef8e1,#fef8e1,#fef8e1,#fef8e1);  */
 }
 footer h4 
 {

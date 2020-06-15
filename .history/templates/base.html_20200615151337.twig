@@ -12,22 +12,17 @@
         {% endblock %}
     </head>
     <body>
-       
+        
             <div id='bl_titre'>
                 <img id="logo" src="*" alt="logo">
                 <h1><span id='wgt'>Cor'Yas Mag</span></br> le blog sans concession</h1>
             </div>
             <header>
-                <div id='b_acc'>
-                    <a id='b0' href={{path('home')}} target="">
-                            <div id="m0">Accueil</div>
-                            <div id='a0'></div>
-                    </a>
-                </div>
-                         
+                <div id='vid'></div>
+                
                 <nav id="menu">
                     <div id="mn">
-                       <a id='b1' href='{{path('actus')}}' target="">
+                        <a id='b1' href='{{path('actus')}}' target="">
                             <div id="m1">Actus</div>
                             <div id='a1'></div>
                         </a>
@@ -80,10 +75,10 @@
                         <div id='vid1'></div>
                         <a id ='yt' href='' target=''><img src='Img/icon_yt.jpg' alt='iconyt'/></a>
                     </div>
-                    <p id='cop'>©2020 Cor'Yas Site officiel, tous droits réservés </br> Réalisé par Elfebleu9</p>
+                    <p id='cop'>©2020 Elvys Futur Site officiel, tous droits réservés </br> Réalisé par Elfebleu9</p>
                     
                 </div>
-            </footer>       
+            </footer>  
         {% block javascripts %}{% endblock %}
     </body>
 </html>
