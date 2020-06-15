@@ -102,9 +102,9 @@ nav #mn a, #b0
 }
 #cg
 {
-    animation: colorcg 1500ms 200ms 4;
+    animation: colortype 1500ms 200ms 4;
 }
-@keyframes colorcg {
+@keyframes colortype {
     0%,100% {
 
        color: black;
@@ -127,9 +127,9 @@ nav #mn a, #b0
 }
 #cc
 {
-    animation: colorcc 1500ms 200ms 4;
+    animation: colortype 1500ms 200ms 4;
 }
-@keyframes colorcc {
+@keyframes colortype {
     0%,100% {
 
        color: black;

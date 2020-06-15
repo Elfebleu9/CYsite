@@ -102,9 +102,9 @@ nav #mn a, #b0
 }
 #cg
 {
-    animation: colorcg 1500ms 200ms 4;
+    animation: colortype 1500ms 200ms 4;
 }
-@keyframes colorcg {
+@keyframes colortype {
     0%,100% {
 
        color: black;
@@ -112,7 +112,6 @@ nav #mn a, #b0
     25% {
          
         color: rgb(13, 145, 20);
-        text-shadow: yellow 2px 2px 1px;
 
     }
     50% {
@@ -122,32 +121,6 @@ nav #mn a, #b0
     75% {
          
         color: rgb(13, 145, 20);
-        text-shadow: yellow 2px 2px 1px;
-    }
-}
-#cc
-{
-    animation: colorcc 1500ms 200ms 4;
-}
-@keyframes colorcc {
-    0%,100% {
-
-       color: black;
-   }
-    25% {
-         
-        color: rgb(211, 8, 8);
-        text-shadow: yellow 2px 2px 1px;
-
-    }
-    50% {
-        
-        color: black;
-   }
-    75% {
-         
-        color: rgb(211, 8, 8);
-        text-shadow: yellow 2px 2px 1px;
     }
 }
 /* boutons*/
