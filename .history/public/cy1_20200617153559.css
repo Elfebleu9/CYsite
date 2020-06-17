@@ -1,0 +1,390 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', Verdana, Georgia,'Comic Sans MS', serif;
+    background: linear-gradient(90deg,rgb(66, 25, 63),rgb(214, 154, 209),rgb(184, 222, 247),rgb(214, 154, 209),rgb(66, 25, 63));
+}
+/* espaces */
+#vid
+{
+    width:5%;
+    height:150px;
+}
+#vid1
+{
+    width:10%;
+    height:20px;
+}
+header
+{
+    position: fixed;
+    margin-top: -16px;
+    background: linear-gradient(90deg,rgb(66, 25, 63),rgb(214, 154, 209),rgb(184, 222, 247),rgb(214, 154, 209),rgb(66, 25, 63)); 
+    height: 260px;
+    margin-bottom: 150px;
+}
+#blp_titre
+{
+    display: flex;
+    justify-content: flex-start; 
+   
+    
+}
+#bl_titre
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 100px;
+    margin-top: 10px;
+    
+    /* border: turquoise 1px solid; */
+    
+}
+#p_titre
+{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+#bl_log
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    
+   
+}
+#logo
+{
+    border-radius: 5px;
+    border: turquoise 2px solid;
+    height: 100px;
+}
+#mess
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+h2
+{
+    text-align: center;
+   
+}
+#wgt
+{
+    font-size: larger;
+    
+}
+/*bloc menu*/
+#tete
+{
+    /* border: solid 2px orange; */
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+nav
+{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 100px;
+    border: solid 2px orange;
+    border-radius: 50px;
+    box-shadow: black 4px 4px 2px;
+}
+nav #mn a, #b0
+{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+#mn
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+#icon
+{
+    display: flex;
+    flex-direction: row;
+}
+#icon1
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+#adem
+{
+    width: 25%;
+    height:50px;
+}
+#leo,#cor,#new,#dis,#ang
+{
+    border-radius: 50px;
+}
+#b0
+{
+    display: flex;
+    justify-content:space-around;
+    width: 70%;
+    height: 40px;
+    text-align: center;
+    border-radius: 80px;
+}
+#b_acc
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100px;
+    border: solid 2px red;
+    border-radius: 80px;
+    box-shadow: black 4px 4px 2px;
+}
+#b1,#b2,#b3,#b4
+{
+    display: flex;
+    justify-content:space-around;
+    width: 18%;
+    height: 40px;
+    text-align: center;
+    border-radius: 80px;
+}
+#b1:hover,#b2:hover,#b3:hover,#b4:hover,#b0:hover
+{ 
+    background-color:  #ebdda8;
+}
+#cc,#cg,#ac,#pa,#acc
+{
+    margin-top: 0px;
+}
+
+#cg
+{
+    animation: colorcg 3000ms 200ms 6;
+}
+@keyframes colorcg {
+    0%,100% {
+
+       color: black;
+   }
+    25% {
+         
+        color: rgb(13, 145, 20);
+        text-shadow: yellow 2px 2px 1px;
+
+    }
+    50% {
+        
+        color: black;
+   }
+    75% {
+         
+        color: rgb(13, 145, 20);
+        text-shadow: yellow 2px 2px 1px;
+    }
+}
+#cc
+{
+    animation: colorcc 3000ms 200ms 6;
+}
+@keyframes colorcc {
+    0%,100% {
+
+       color: black;
+   }
+    25% {
+         
+        color: rgb(211, 8, 8);
+        text-shadow: yellow 2px 2px 1px;
+
+    }
+    50% {
+        
+        color: black;
+   }
+    75% {
+         
+        color: rgb(211, 8, 8);
+        text-shadow: yellow 2px 2px 1px;
+    }
+}
+/* boutons*/
+#but
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 18%;
+    height: 100px;
+}
+#button1, #button2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    height: 50px;
+    background-color: #ebdda8;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: black 4px 4px 2px;
+    transform: scale(1);
+    transition: transform 100ms;
+}
+#button1:hover
+{
+    color:rgb(250, 40, 3);
+    background-color: rgb(59, 252, 53);
+    cursor: pointer;
+    box-shadow: black 4px 4px 2px;
+    transform: scale(1.1);
+    font-weight:bold;
+}
+#button2:hover
+{
+    color:rgb(250, 40, 3);
+    background-color: rgb(21, 230, 245);
+    cursor: pointer;
+    box-shadow: black 4px 4px 2px;
+    transform: scale(1.1);
+    font-weight:bold;
+}
+#but a
+{
+    text-decoration: none;
+    color: black;
+}
+#but a:hover
+{
+    color:rgb(241, 106, 16);
+}
+/* pied de page */
+footer
+{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 100%;
+    height: 220px;
+    border-top: yellowgreen 3px solid ;
+    border-left:yellowgreen 3px solid ;
+    box-shadow: black 4px 4px 2px;
+    border-radius: 5px 0px 0px 0px;
+}
+footer h4 
+{
+    text-decoration: underline;
+    width: 100%;
+}
+footer ul
+{
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+    width: 60%;
+}
+footer a
+{
+    text-decoration: none;
+    color: black;
+}
+/* bloc infos */
+#infos
+{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 30%;
+}
+/* bloc plan */
+#plan
+{ 
+    display: flex;
+    align-content: space-around; 
+    align-items: center;
+    flex-direction: column;
+    width: 30%;
+}
+.slig:hover
+{
+    text-decoration: underline;
+}
+/* bloc réseaux */
+#reseaux
+{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 30%;
+}
+#logo_res
+{
+    display: flex;
+    justify-content: flex-start;
+    height: 21px;
+}
+#logo_res a img
+{
+    border-radius: 40px;
+}
+#fb, #tw, #in, #yt
+{
+    width: 20px;
+    height: 20px;
+    transform: scale(1);
+}
+#fb:hover, #tw:hover, #in:hover, #yt:hover
+{
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    transform: scale(1.5);
+}
+#cop
+{
+    font-weight: bold;
+}
+aside
+{
+    width:40%;
+    height:250px;
+    border: springgreen 1px dotted;
+    padding: 25px;
+    overflow: auto;
+
+}
+section
+{
+    width: 60%;
+    height: 500px;
+    padding: 25px;
+    overflow: auto;
+    border: rgb(47, 0, 255) 1px dotted;
+
+}
+p
+{
+    text-align: justify;
+}
+#corps
+{
+    display: flex;
+    justify-content: space-between;
+}
+
