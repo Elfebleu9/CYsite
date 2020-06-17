@@ -180,7 +180,7 @@ nav #mn a, #b0
     text-align: center;
     margin-top: 300px; 
     width: 100%;
-    
+    border: dotted red 2px;
 }
 #ac
 {
@@ -194,7 +194,7 @@ nav #mn a, #b0
     25% {
          
         color: rgb(243, 247, 6);
-        text-shadow: black 2px 2px 1px;
+        text-shadow: red 2px 2px 1px;
 
     }
     50% {
@@ -204,7 +204,7 @@ nav #mn a, #b0
     75% {
          
         color: rgb(243, 247, 6);
-        text-shadow: black 2px 2px 1px;
+        text-shadow: red 2px 2px 1px;
     }
 }
 
@@ -245,7 +245,7 @@ nav #mn a, #b0
     25% {
          
         color: rgb(235, 231, 12);
-        text-shadow: red 2px 2px 1px;
+        text-shadow: green 2px 2px 1px;
 
     }
     50% {
@@ -255,7 +255,7 @@ nav #mn a, #b0
     75% {
          
         color: rgb(235, 231, 12);
-        text-shadow: red 2px 2px 1px;
+        text-shadow: green 2px 2px 1px;
     }
 }
 #pa

@@ -180,7 +180,7 @@ nav #mn a, #b0
     text-align: center;
     margin-top: 300px; 
     width: 100%;
-    
+    border: dotted red 2px;
 }
 #ac
 {

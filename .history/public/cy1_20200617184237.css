@@ -176,25 +176,21 @@ nav #mn a, #b0
 #cc,#cg,#ac,#pa,#acc
 {
     margin-top: 0px;
-    display:inline-block;
-    text-align: center;
-    margin-top: 300px; 
-    width: 100%;
-    
 }
-#ac
+
+#cg
 {
-    animation: colorac 1000ms 200ms 6;
+    animation: colorcg 3000ms 200ms 6;
 }
-@keyframes colorac {
+@keyframes colorcg {
     0%,100% {
 
        color: black;
    }
     25% {
          
-        color: rgb(243, 247, 6);
-        text-shadow: black 2px 2px 1px;
+        color: rgb(13, 145, 20);
+        text-shadow: yellow 2px 2px 1px;
 
     }
     50% {
@@ -203,11 +199,10 @@ nav #mn a, #b0
    }
     75% {
          
-        color: rgb(243, 247, 6);
-        text-shadow: black 2px 2px 1px;
+        color: rgb(13, 145, 20);
+        text-shadow: yellow 2px 2px 1px;
     }
 }
-
 #cc
 {
     animation: colorcc 3000ms 200ms 6;
@@ -230,56 +225,6 @@ nav #mn a, #b0
     75% {
          
         color: rgb(211, 8, 8);
-        text-shadow: yellow 2px 2px 1px;
-    }
-}
-#cg
-{
-    animation: colorcg 3000ms 200ms 6;
-}
-@keyframes colorcg {
-    0%,100% {
-
-       color: black;
-   }
-    25% {
-         
-        color: rgb(235, 231, 12);
-        text-shadow: red 2px 2px 1px;
-
-    }
-    50% {
-        
-        color: black;
-   }
-    75% {
-         
-        color: rgb(235, 231, 12);
-        text-shadow: red 2px 2px 1px;
-    }
-}
-#pa
-{
-    animation: colorpa 3000ms 200ms 6;
-}
-@keyframes colorpa {
-    0%,100% {
-
-       color: black;
-   }
-    25% {
-         
-        color: rgb(82, 66, 228);
-        text-shadow: yellow 2px 2px 1px;
-
-    }
-    50% {
-        
-        color: black;
-   }
-    75% {
-         
-        color: rgb(82, 66, 228);
         text-shadow: yellow 2px 2px 1px;
     }
 }
